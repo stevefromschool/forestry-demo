@@ -18,19 +18,19 @@ sections:
   - landing-page
   - page
 - type: directory
-  path: _people
-  label: People
-  create: all
-  match: "*"
-  templates:
-  - person
-- type: directory
   path: _projects
   label: Projects
   create: all
   match: "*"
   templates:
   - project
+- type: directory
+  path: _people
+  label: People
+  create: all
+  match: "*"
+  templates:
+  - person
 - type: document
   path: _data/information.yml
   label: Contact Information
